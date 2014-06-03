@@ -1,0 +1,18 @@
+# Site settings
+title: Living Water Christian Reformed Church
+email: jhwang@livingwatercrc.org
+description: "Living Water CRC is a church plant in Grand Rapids, MI.  Our mission is to be a loving community, called to glorify God and raise disciples, who actively live the Gospel in the world."
+baseurl: ""
+url: "http://livingwatercrc.org"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+timezone: "America/New_York"
+
+google_analytics_id: ""
+
+exclude: [ README.md ]
+
+permalink: /articles/:title
