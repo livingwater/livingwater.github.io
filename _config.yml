@@ -16,3 +16,6 @@ google_analytics_id: ""
 exclude: [ README.md ]
 
 permalink: /articles/:title
+
+gems:
+  - jekyll-sitemap
