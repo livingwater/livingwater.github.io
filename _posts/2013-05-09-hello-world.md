@@ -7,6 +7,7 @@ title: Welcome
 ---
 
 ![Alt Text Blah](/media/IMG_4721.JPG)
+![](/media/IMG_4721.JPG)
 
 ## Testing
 
