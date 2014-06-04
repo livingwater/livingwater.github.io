@@ -6,7 +6,7 @@ splash: "http://placehold.it/1600x500"
 title: Welcome
 ---
 
-![](/media/IMG_4721.JPG)
+![Alt Text Blah](/media/IMG_4721.JPG)
 
 ## Testing
 
