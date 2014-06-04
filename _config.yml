@@ -13,9 +13,25 @@ timezone: "America/New_York"
 
 google_analytics_id: ""
 
+# include: [ js ]
 exclude: [ README.md ]
 
-permalink: /articles/:title
+permalink: /blog/:title
 
-gems:
-  - jekyll-sitemap
+sass:
+  sass_dir: "_scss"
+  css_dir: "../css"
+  images_dir: "images"
+  javascripts_dir: "javascripts"
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "css"
+    values:
+      layout: ""
