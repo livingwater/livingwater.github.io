@@ -1,7 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 2.0.0'
 gem 'jekyll-sitemap'
-gem 'github-pages'
 
+group :development do
+  gem 'sass', '~> 3.2.0'
+  gem 'susy'
+  gem 'bootstrap-sass'
 
+  gem 'compass'
+  gem 'jekyll-compass'
+end
